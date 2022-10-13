@@ -1,12 +1,12 @@
-# Assignment1 - Plot Lidar Readings
+# Display Ranges
 Write code in `plot_rplidar.py` to complete this assignment.
 
 ## Requirement
 1. (10%) Read range data from RPLidar (literally, run any example code comes with the rplidar python library).
 2. (10%) Set up the polar coordinate system.
-3. (50%) Display range data in the polar coordinate system.
+3. (50%) Create a single plot that showing surrounding obstacles.
 4. (20%) Display range data in real time. 
-5. (10%) Upload a picture of your plot
+5. (10%) Upload a video or a animated gif image to demonstrate the real-time detection
 
 Refer following picture as a good example
 
