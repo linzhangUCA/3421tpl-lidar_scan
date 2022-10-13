@@ -14,3 +14,4 @@ Refer following picture as a good example
 ## Helpful Resources
 - [Adafruit Library for RPLidar](https://github.com/adafruit/Adafruit_CircuitPython_rplidar)
 - [Polar plot via Matplotlib](https://matplotlib.org/stable/gallery/pie_and_polar_charts/polar_demo.html)
+- [pyplot animation](https://matplotlib.org/stable/gallery/animation/animation_demo.html#sphx-glr-gallery-animation-animation-demo-py)
