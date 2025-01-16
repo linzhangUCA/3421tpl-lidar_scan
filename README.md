@@ -23,7 +23,13 @@ So, you may want to **reverse** the distance samples list when plot the data.
 
 ![](images/scan_example.png)
 
-#### Hint: [Polar plot via Matplotlib](https://matplotlib.org/stable/gallery/pie_and_polar_charts/polar_demo.html)
+#### Hints
+- [Matplotlib](https://matplotlib.org/) installation
+```console
+# Run following line in terminal
+pip install matplotlib --break-system-packages
+```
+- Polar plot [example](https://matplotlib.org/stable/gallery/pie_and_polar_charts/polar_demo.html)
 
 ### 2. (20%) Convert Polar coordinates to Cartesian coordinates 
 Describe the conversion rule (from polar to Cartesian) using math language.
