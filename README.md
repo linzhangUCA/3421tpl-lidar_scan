@@ -6,8 +6,9 @@
 - Polar and Cartesian coordinates conversion.
 
 ## Requirements
-Place the LiDAR at designated location, scan and analyze the data.
-### (80%) 1. LiDAR Scan Visualization
+Place the LiDAR at designated location, start to scan and analyze the data.
+
+### 1. (80%) LiDAR Scan Visualization
 Complete [plot_scan.py](plot_scan.py) to achieve following requests.
 1. (10%) Complete at least 1 successful scan in 360 degrees with 100+ non-zero distance samples. 
 2. (20%) Plot the data points from last successful scan under the polar coordinate system. Only plot the data points within 0 to 1 meter range.
@@ -22,12 +23,13 @@ So, you may want to **reverse** the distance samples list when plot the data.
 
 ![](images/scan_example.png)
 
-### Helpful Resources
-- [Polar plot via Matplotlib](https://matplotlib.org/stable/gallery/pie_and_polar_charts/polar_demo.html)
+#### Hint: [Polar plot via Matplotlib](https://matplotlib.org/stable/gallery/pie_and_polar_charts/polar_demo.html)
 
-### (20%) 2. Convert Polar coordinates to Cartesian coordinates 
+### 2. (20%) Convert Polar coordinates to Cartesian coordinates 
 Describe the conversion rule (from polar to Cartesian) using math language.
 1. Please follow the frame setup shown in the figure above.
 2. (10%) Define/Explain (4) symbols for general representations of (a pair of) polar coordinates and Cartesian coordinates.
 3. (10%) About 2 equations are expected. 
 
+## AI Policies
+Please acknowledge AI's contributions follow the policies in the syllabus.
