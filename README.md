@@ -1,17 +1,21 @@
-# Display Ranges
-Write code in `plot_rplidar.py` to complete this assignment.
+# LiDAR Scan
 
-## Requirement
-1. (10%) Read range data from RPLidar (literally, run any example code comes with the rplidar python library).
-2. (10%) Set up the polar coordinate system.
-3. (50%) Create a single plot that showing surrounding obstacles.
-4. (20%) Display range data in real time. 
-5. (10%) Upload a video or a animated gif image to demonstrate the real-time detection
+## Objetives
+- Explore usage of [RPLIDAR A1](https://www.slamtec.com/en/lidar/a1) with a Python [library](https://github.com/adafruit/Adafruit_CircuitPython_RPLIDAR).
+- Visualize LiDAR scan data.
+- Polar and Cartesian coordinates transformation.
 
-Refer following picture as a good example
+## Requirements
+Place the LiDAR at designated location, scan and analyze the data.
+### (60%) 1. LiDAR Scan Visualization
+1. Complete at least 1 successful scan in 360 degrees with 100+ non-zero data points. 
+2. Plot the data points from last successful scan under the polar coordinate system.
+3. Save the plot as a PNG image file in this repository.
+4. Print scan distance at 0, 235, 315 degrees and the (x, y) coordinates under the Cartesian frame as shown below.
 
-![example plot](https://user-images.githubusercontent.com/7419790/66256236-b94ec980-e7c6-11e9-921e-c5098fce58b1.gif)
+### (40%) 2. Transform Polar coordinates to Cartesian coordinates 
+1. Describe the transformation rule (from polar to cartesian) using math language.
+2. Attach a diagram to explain such a transformation. You can download one online, but your figure has to be correctly rendered by Github Markdown.
+    
 ## Helpful Resources
-- [Adafruit Library for RPLidar](https://github.com/adafruit/Adafruit_CircuitPython_rplidar)
 - [Polar plot via Matplotlib](https://matplotlib.org/stable/gallery/pie_and_polar_charts/polar_demo.html)
-- [pyplot animation](https://matplotlib.org/stable/gallery/animation/animation_demo.html#sphx-glr-gallery-animation-animation-demo-py)
