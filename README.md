@@ -21,7 +21,7 @@ Complete [plot_scan.py](plot_scan.py) to achieve following requests.
 **Note:** The RPLIDAR A1 spins clockwise, but the polar plot use counter-clockwise as the default angle increasing direction. 
 So, you may want to **reverse** the distance samples list when plot the data. 
 
-![](images/scan_example.png)
+![scan_example](./images/scan_example.png)
 
 #### Hints
 - [Matplotlib](https://matplotlib.org/) installation
