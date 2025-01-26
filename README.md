@@ -11,7 +11,7 @@ Place the LiDAR at designated location, start to scan and analyze the data.
 ### 1. (80%) LiDAR Scan Visualization
 Complete [plot_scan.py](plot_scan.py) to achieve following requests.
 1. (10%) Complete at least 1 successful scan in 360 degrees with 100+ non-zero distance samples. 
-2. (20%) Plot the data points from last successful scan under the polar coordinate system. Only plot the data points within 0 to 1 meter range.
+2. (20%) Plot the data points from last successful scan under the polar coordinate system. Limit the visiable range within 0 to 1 meter.
 3. (10%) Save the plot as a image file (PNG or JPG) in this repository.
 4. (40%) Log distance samples at 0, 135, and 225 degrees and the corresponding Cartesian coordinates under the frame set as shown in the figure below.
 - Distance at 0 deg: ? m, Cartesian coordinates: (?, ?) m.
